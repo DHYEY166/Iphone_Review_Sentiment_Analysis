@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1zko4puwL-xI90MyuwVci5PEvcaK1Nd2_
 """
 
-pip install textblob
 
 import pandas as pd
 import numpy as np
