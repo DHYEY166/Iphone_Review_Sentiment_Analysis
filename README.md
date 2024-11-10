@@ -1,6 +1,6 @@
 # Sentiment Analysis for Apple Product Reviews
 
-A comprehensive sentiment analysis system designed to analyze product reviews using multiple machine learning approaches and natural language processing techniques.
+A comprehensive sentiment analysis system designed to analyze iPhone product reviews using multiple machine learning approaches and natural language processing techniques.
 
 ## Features
 
@@ -15,8 +15,8 @@ A comprehensive sentiment analysis system designed to analyze product reviews us
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/DHYEY166/Iphone_Review_Sentiment_Analysis.git
-cd sentiment-analysis
+git clone https://github.com/yourusername/Iphone_Review_Sentiment_Analysis.git
+cd Iphone_Review_Sentiment_Analysis
 ```
 
 2. Create a virtual environment and activate it:
@@ -51,7 +51,7 @@ from src.sentiment_classifier import SentimentClassifier
 analyzer = SentimentAnalyzer()
 
 # Analyze a single review
-text = "Great product, excellent battery life!"
+text = "Great iPhone, excellent battery life!"
 sentiment = analyzer.get_detailed_sentiment(text)
 print(sentiment)
 
@@ -60,14 +60,14 @@ classifier = SentimentClassifier(df, balance_method='smote')
 classifier.train_and_evaluate()
 
 # Make predictions
-result = classifier.predict_sentiment("This is an amazing product!")
+result = classifier.predict_sentiment("This is an amazing iPhone!")
 print(result)
 ```
 
 ### Advanced Usage
 
 The complete implementation and analysis workflow can be found in `notebooks/UPDATED.ipynb`. This notebook includes:
-- Detailed data analysis
+- Detailed iPhone review data analysis
 - Feature engineering steps
 - Model training and tuning
 - Performance evaluation
@@ -121,18 +121,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you use this code in your research, please cite:
 
 ```bibtex
-@software{sentiment_analysis_2024,
+@software{iphone_sentiment_analysis_2024,
   author = {Your Name},
-  title = {Sentiment Analysis for Product Reviews},
+  title = {iPhone Review Sentiment Analysis},
   year = {2024},
   publisher = {GitHub},
-  url = {https://github.com/yourusername/sentiment-analysis}
+  url = {https://github.com/yourusername/Iphone_Review_Sentiment_Analysis}
 }
 ```
 
 ## Notebook Details
 
-The main analysis notebook (`UPDATED.ipynb`) contains a comprehensive implementation of the sentiment analysis system, including:
+The main analysis notebook (`UPDATED.ipynb`) contains a comprehensive implementation of the iPhone review sentiment analysis system, including:
 
 ### Data Processing
 - Loading and cleaning iPhone review data
@@ -152,5 +152,15 @@ The main analysis notebook (`UPDATED.ipynb`) contains a comprehensive implementa
 
 ### Results
 - Detailed performance metrics for each model
-- Example predictions on test cases
+- Example predictions on iPhone reviews
 - Analysis of model strengths and weaknesses
+
+## Dataset
+
+The analysis is performed on iPhone product reviews, containing:
+- Review text and titles
+- Product variants
+- Customer ratings
+- Review metadata
+
+The sentiment analysis system processes this data to extract meaningful insights about customer satisfaction and product perception.
