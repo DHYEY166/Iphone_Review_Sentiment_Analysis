@@ -1,0 +1,11 @@
+Text,Predicted_Sentiment,Confidence
+"Amazing phone, great camera quality and battery life",Positive,0.9941314
+"Worst purchase ever, totally disappointed",Negative,0.9846201
+"It's an okay phone, nothing special",Positive,0.6608515
+The battery life could be better but overall good phone,Positive,0.99054563
+Camera quality is excellent but price is too high,Positive,0.9534594
+Very disappointed with the product quality,Negative,0.5669356
+"Average performance, not worth the premium price",Positive,0.51680803
+Fantastic features and incredible user experience,Positive,0.56492436
+The phone keeps freezing and battery drains quickly,Neutral,0.36429468
+"Good value for money, meets all basic requirements",Positive,0.943881
