@@ -122,7 +122,7 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @software{iphone_sentiment_analysis_2024,
-  author = {Your Name},
+  author = {DHYEY DESAI},
   title = {iPhone Review Sentiment Analysis},
   year = {2024},
   publisher = {GitHub},
