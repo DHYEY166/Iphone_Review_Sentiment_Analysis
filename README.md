@@ -15,7 +15,7 @@ A comprehensive sentiment analysis system designed to analyze product reviews us
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/sentiment-analysis.git
+git clone https://github.com/DHYEY166/Iphone_Review_Sentiment_Analysis.git
 cd sentiment-analysis
 ```
 
